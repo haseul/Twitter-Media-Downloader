@@ -21,10 +21,11 @@ def parse_arguments():
     url_arg = False
     previews = False
     word_filter = False
+    twitter_folder = False
 
     if len(sys.argv) < 2:
         input('No arguments given\n'
-              'Press Enter to continue ')
+              'Press Enter to continue: ')
         sys.exit()
 
     for index, arg in enumerate(sys.argv):
